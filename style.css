@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1f2937;
+    color: #f9faf8;
+    display: flex;
+    padding: 20px 60px;
+}
+.logo {
+    font-size: 24px;
+    font-weight: 900;
+}
+nav ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+    list-style: none;
+}
+nav a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero {
+    background-color: #1f2937;
+    color: #f9faf8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 60px;
+    gap: 40px
+}
+.hero-left{
+    max-width: 50%
+}
+.hero h1{
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0;
+}
+.hero p{
+    font-size: 18px;
+    margin: 20px 0;
+    color: #E5E7EB;
+}
+.hero button{
+    font-size: 16px;
+    background-color: #3882f6;
+    color: white;
+    padding: 10px 25px;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+}
+.image-placeholder{
+    width: 400px;
+    height: 200px;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.info {
+    padding: 60px;
+    text-align: center;
+}
+.info h2{
+    font-size: 32px;
+    font-weight: 900;
+    color: #1f2937;
+    margin-bottom: 40px;
+}
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+.card {
+    width: 150px;
+}
+.box{
+    width: 150px;
+    height: 150px;
+    border:3px solid #3882f6;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.quote{
+    background-color: #E5E7EB;
+    padding: 80px 100px;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+.quote .author {
+    margin-top :20px;
+    text-align: right;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.cta{
+    color: white;
+    background-color: #3882f6; 
+    align-items: center;
+    padding: 40px 100px;
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 100px;
+}
+.cta button{
+    background-color: white;
+    color: #3882F6;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.cta h3{
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+.cta p{
+    margin: 5px 0 0 0;
+}
+
+footer {
+    text-align: center;
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding: 20px;
+}
